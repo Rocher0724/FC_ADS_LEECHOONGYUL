@@ -48,4 +48,4 @@
 
 
 [ActiveX와 Technical Debt]: <https://github.com/fastcampus-school/computer_basic_assignment_171q/blob/master/170111/a.choongyul.lee/homework0111.md>
-[마크다운을 꾸미기 위해 아이콘을 알아보자]: <https://goo.gl/7CCHOj>
+[Multi Threading과 Multi Tasking]: <https://goo.gl/7CCHOj>
