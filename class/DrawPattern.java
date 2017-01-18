@@ -3,52 +3,56 @@ package com.choongyul;
 public class DrawPattern {
 	public static void main(String[] args) {
 		DrawPattern dp = new DrawPattern();
-		System.out.println("");
-		System.out.println("");
+		
+				System.out.println("");
+				System.out.println("");
+		
 		dp.showRectTri(5, "X");
-		System.out.println("");
+		
+				System.out.println("");
+				System.out.println("");
 
 		dp.showReverseTri(10, "X");
-		System.out.println("");
+			System.out.println("");
 
 		dp.Tri3(5, "X");
-		System.out.println("");
-
-		System.out.println("");
+				System.out.println("");
+		
+				System.out.println("");
 		dp.Tri4(5, "X");
-		System.out.println("");
-		System.out.println("");
+				System.out.println("");
+				System.out.println("");
 
 		dp.Tri5(5, "X");
-		System.out.println("");
-		System.out.println("");
+				System.out.println("");
+				System.out.println("");
 
 		dp.Tri6(5, "X");
-		System.out.println("");
-		System.out.println("");
+				System.out.println("");
+				System.out.println("");
 
 		dp.Tri7(5, "X");
-		System.out.println("");
-		System.out.println("");
+				System.out.println("");
+				System.out.println("");
 
 		dp.Tri8(5, "X");
-		System.out.println("");
-		System.out.println("");
+				System.out.println("");
+				System.out.println("");
 		dp.Tri9(10, "X");
-		System.out.println("");
-		System.out.println("");
+				System.out.println("");
+				System.out.println("");
 		dp.Tri10(5, "X");
-		System.out.println("");
-		System.out.println("");
+				System.out.println("");
+				System.out.println("");
 		dp.Tri11(10, "X");
-		System.out.println("");
-		System.out.println("");
+				System.out.println("");
+				System.out.println("");
 		dp.Tri12(7, "X");
-		System.out.println("");
-		System.out.println("");
+				System.out.println("");
+				System.out.println("");
 		dp.Tri13(6, "X");
-		System.out.println("");
-		System.out.println("");
+				System.out.println("");
+				System.out.println("");
 		dp.snail(5);
 	}
 	
@@ -75,6 +79,15 @@ public class DrawPattern {
 		}
 	}
 	
+	/**      X
+	 * 	    XX
+	 *     XXX
+	 *    XXXX
+	 *   XXXXX 
+	 *    
+	 * @param count
+	 * @param unit
+	 */
 	public void showReverseTri(int count, String unit) {
 		int i = 0;
 		int j = 0;
@@ -100,6 +113,14 @@ public class DrawPattern {
 		}
 	}
 	
+	/**    X
+	 *    XXX
+	 *   XXXXX
+	 *  XXXXXXX
+	 * XXXXXXXXX
+	 * @param count
+	 * @param unit
+	 */
 	public void Tri3(int count, String unit) {
 		int i = 0;
 		int j = 0;
@@ -114,6 +135,15 @@ public class DrawPattern {
 		}
 	}
 	
+	/**     X
+	 *     X X
+	 *    X   X
+	 *   X     X
+	 *  X       X
+	 * 
+	 * @param count
+	 * @param unit
+	 */
 	public void Tri4(int count, String unit) {
 		int i = 0;
 		int j = 0;
@@ -142,6 +172,16 @@ public class DrawPattern {
 		}
 	}
 	
+	
+	/**     X
+	 *     X X
+	 *    X   X
+	 *   X     X
+	 *  XXXXXXXXX
+	 * 
+	 * @param count
+	 * @param unit
+	 */
 	public void Tri5(int count, String unit) {
 		int i = 0;
 		int j = 0;
@@ -177,6 +217,19 @@ public class DrawPattern {
 		
 	}
 	
+	/**       X
+	 *       XXX
+	 *      XXXXX
+	 *     XXXXXXX
+	 *    XXXXXXXXX
+	 *     XXXXXXX
+	 *      XXXXX
+	 *       XXX
+	 *        X
+	 * 
+	 * @param count
+	 * @param unit
+	 */
 	public void Tri6(int count, String unit) {
 		int i = 0;
 		int j = 0;
@@ -220,6 +273,19 @@ public class DrawPattern {
 	}
 	
 	
+	/**       X
+	 *       X X
+	 *      X X X
+	 *     X X X X
+	 *    X X X X X
+	 *     XXXXXXX
+	 *      XXXXX
+	 *       XXX
+	 *        X
+	 * 
+	 * @param count
+	 * @param unit
+	 */
 	public void Tri7(int count, String unit) {
 		int i = 0;
 		int j = 0;
@@ -257,7 +323,19 @@ public class DrawPattern {
 		}
 	}
 	
-	
+	/**      X
+	 *      X X
+	 *     X   X
+	 *    X     X
+	 *   X       X
+	 *    X     X
+	 *     X   X
+	 *      X X
+	 *       X
+	 *  
+	 * @param count
+	 * @param unit
+	 */
 	public void Tri8(int count, String unit) {
 		int i = 0;
 		int j = 0;
@@ -308,6 +386,17 @@ public class DrawPattern {
 		
 	}
 	
+	/** X     X
+	 *   X   X
+	 *    X X
+	 *     X
+	 *    X X
+	 *   X   X
+	 *  X     X 
+	 * 
+	 * @param count
+	 * @param unit
+	 */
 	public void Tri9(int count, String unit) {
 		int i = 0;
 		int j = 0;
@@ -361,7 +450,15 @@ public class DrawPattern {
 	}
 	
 	
-	
+	/**  XXXXX
+	 *   X   X
+	 *   X   X
+	 *   X   X
+	 *   XXXXX
+	 * 
+	 * @param count
+	 * @param unit
+	 */
 	public void Tri10(int count, String unit) {
 		int i = 0;
 		int j = 0;
@@ -417,6 +514,13 @@ public class DrawPattern {
 		System.out.println("");
 	}
 	
+//	X     X     X     X     X     X
+//	     X    X    X    X    X
+//	         X   X   X   X
+//	            X  X  X
+//	              X X
+	//			   X
+	              
 	public void Tri12(int count, String unit) {
 		int i = 0;
 		int j = 0;

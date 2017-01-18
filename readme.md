@@ -11,7 +11,7 @@
 
 #### week2
  - [Java 변수, 자료형, 연산자, 조건문, javadoc]
-
+ - [객체를 이용한 연산, DrawPattern]
 
 #### 그외 북마크
  - [마크다운 한글참조]
@@ -44,7 +44,7 @@
 [소프트웨어 공학, 프로그래밍 언어의 종류, 프로그래밍 용어]: <https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170113.pdf>
 
 [Java 변수, 자료형, 연산자, 조건문, javadoc]: <https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170116.md>
-
+[객체를 이용한 연산, DrawPattern]: <https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170117.md>
 
 [어떤 회사가 있는지 알아보자]: <https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/company_search.md>
 
