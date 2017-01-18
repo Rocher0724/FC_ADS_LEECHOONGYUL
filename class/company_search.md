@@ -62,6 +62,6 @@
 [CleanFly 홈페이지]:<http://www.getcleanfly.com/>
 [블로그 리뷰]:<http://blog.naver.com/taemin12/220613042687>
 
-[Jandi 소개 링크]:<https://www.jandi.com/landing/kr/features>
+[Jandi 홈페이지]:<https://www.jandi.com/landing/kr/features>
 [D&C 소개 링크]:<http://dramancompany.com/company/>
 [D&C 기술블로그]:<http://blog.dramancompany.com/category/develop/>
