@@ -17,6 +17,9 @@
  - [Buffer, Stream, 게시판 만들기 with IO]
  - [2주차 weekly note]
 
+ #### week3
+ - [Android Studio Settings]
+
 #### 그외 북마크
  - [마크다운 한글참조]
  - [마크다운을 꾸미기 위해 아이콘을 알아보자]
@@ -54,6 +57,9 @@
 [OOP와 상속, 인터페이스 등 클래스 만들기 , 게시판 만들기]: <https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170119.md>
 [Buffer, Stream, 게시판 만들기 with IO]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170120.md>
 [2주차 weekly note]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170121.md>
+
+
+[Android Studio Settings]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170123.md>
 
 [어떤 회사가 있는지 알아보자]: <https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/company_search.md>
 
