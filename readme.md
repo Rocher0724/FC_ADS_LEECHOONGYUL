@@ -17,7 +17,7 @@
  - [Buffer, Stream, 게시판 만들기 with IO]
  - [2주차 weekly note]
 
- #### week3
+#### week3
  - [Android Studio Settings]
 
 #### 그외 북마크
