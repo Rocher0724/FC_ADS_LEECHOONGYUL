@@ -19,6 +19,7 @@
 
 #### week3
  - [Android Studio Settings]
+ - [widget 사용하기, 계산기 만들기]
 
 #### 그외 북마크
  - [마크다운 한글참조]
@@ -60,6 +61,7 @@
 
 
 [Android Studio Settings]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170123.md>
+[widget 사용하기, 계산기 만들기]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170124.md>
 
 [어떤 회사가 있는지 알아보자]: <https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/company_search.md>
 
