@@ -23,6 +23,8 @@
  - [Constraint layout,  UI 구성]
  - [App Component, Activity Lifecycle]
  
+#### week3
+- [List View, Recycler View]
  
 #### 그외 북마크
  - [마크다운 한글참조]
@@ -68,6 +70,7 @@
 [Constraint layout,  UI 구성]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170125.md>
 [App Component, Activity Lifecycle]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170126.md>
 
+[List View, Recycler View]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170131.md>
 
 [어떤 회사가 있는지 알아보자]: <https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/company_search.md>
 
