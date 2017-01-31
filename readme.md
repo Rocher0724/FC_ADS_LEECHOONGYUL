@@ -21,6 +21,7 @@
  - [Android Studio Settings]
  - [widget 사용하기, 계산기 만들기]
  - [Constraint layout,  UI 구성]
+ - [App Component, Activity Lifecycle]
  
  
 #### 그외 북마크
@@ -65,6 +66,7 @@
 [Android Studio Settings]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170123.md>
 [widget 사용하기, 계산기 만들기]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170124.md>
 [Constraint layout,  UI 구성]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170125.md>
+[App Component, Activity Lifecycle]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170126.md>
 
 
 [어떤 회사가 있는지 알아보자]: <https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/company_search.md>
