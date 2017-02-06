@@ -29,6 +29,9 @@
  - [Music Player 만들기]
  - [Music Player 보완, generic, annotation 등 ]
 
+#### week5
+ - [Fragment]
+
 #### 그외 북마크
  - [마크다운 한글참조]
  - [마크다운을 꾸미기 위해 아이콘을 알아보자]
@@ -41,8 +44,6 @@
  - [Multi Threading과 Multi Tasking]
 
 <br/>
-#### 기업 조사
- - [어떤 회사가 있는지 알아보자]
   
 
 <br/>
@@ -51,7 +52,6 @@
  - rocher0724.dev@gmail.com
  - [rocher.tistory.com](https://rocher.tistory.com)
 <br/>  
-차곡차곡 쌓아봅시다.
 
 
 
@@ -77,6 +77,8 @@
 [Runtime Permission]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170201.md>
 [Music Player 만들기]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170202.md>
 [Music Player 보완, generic, annotation 등 ]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170203.md>
+
+[Fragment]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170206.md>
 
 [어떤 회사가 있는지 알아보자]: <https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/company_search.md>
 
