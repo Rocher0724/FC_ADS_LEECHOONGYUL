@@ -31,6 +31,7 @@
 
 #### week5
  - [Fragment]
+ - [GPS 센서, alertDialog, 화면회전, 최적화]
 
 #### 그외 북마크
  - [마크다운 한글참조]
@@ -79,6 +80,7 @@
 [Music Player 보완, generic, annotation 등 ]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170203.md>
 
 [Fragment]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170206.md>
+[GPS 센서, alertDialog, 화면회전, 최적화]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170207.md>
 
 [어떤 회사가 있는지 알아보자]: <https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/company_search.md>
 
