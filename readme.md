@@ -33,7 +33,12 @@
  - [Fragment]
  - [GPS 센서, alertDialog, 화면회전, 최적화]
  - [Fragment + BackPressed , SOLID를 사용해 객체지향 설계]
- - [디자인패턴 1] - Singleton, Multiton, Proxy, Decorator, Template Method, Factory Method, Strategy, Strategy CallBack
+ - [디자인패턴] - Singleton, Multiton, Proxy, Decorator, Template Method, Factory Method, Strategy, Strategy CallBack
+ - [Camera, Gallery, Runtime Permission Custom]
+
+#### week6
+ - [갤러리 커스텀, MySQL]
+
 
 #### 그외 북마크
  - [마크다운 한글참조]
@@ -84,7 +89,10 @@
 [Fragment]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170206.md>
 [GPS 센서, alertDialog, 화면회전, 최적화]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170207.md>
 [Fragment + BackPressed , SOLID를 사용해 객체지향 설계]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170208.md>
-[디자인패턴 1]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170209.md>
+[디자인패턴]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170209.md>
+[Camera, Gallery, Runtime Permission Custom]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170210.md>
+
+[갤러리 커스텀, MySQL]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170213.md>
 
 [어떤 회사가 있는지 알아보자]: <https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/company_search.md>
 
