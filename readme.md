@@ -39,6 +39,9 @@
 #### week6
  - [갤러리 커스텀, MySQL]
 
+#### week7
+- [Java 1.8, Lambda Expressions(람다식)]
+
 
 #### 그외 북마크
  - [마크다운 한글참조]
@@ -93,6 +96,8 @@
 [Camera, Gallery, Runtime Permission Custom]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170210.md>
 
 [갤러리 커스텀, MySQL]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170213.md>
+
+[Java 1.8, Lambda Expressions(람다식)]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170220.md>
 
 [어떤 회사가 있는지 알아보자]: <https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/company_search.md>
 
