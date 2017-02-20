@@ -1,0 +1,33 @@
+만들면서 써가는 안드로이드 팁 
+
+* 액티비티에서 플로팅 버튼(Floating action button) 사용할 때 editText 에서 자동으로 플로팅 버튼 올라오게 / 안 올라오게 하는 것 
+ : 	manifest 에서 각 activity에 설정 해줘야 하는데 
+ 1. 프래그먼트는 아래 기본 설정이 adjustResize 이다. 프래그먼트에 FAB를 띄울때는 자동으로 올라온다고 한다.
+ 2. 액티비티는 아래 기본 설정이 adjustNoting 이다. 액티비티에 FAB를 띄우면 자동으로 안올라온다.
+ 	android:windowSoftInputMode="adjustNothing" 라고 하면 안올라온다.
+ 	android:windowSoftInputMode="adjustResize" 라고 하면 키보드가 올라올 때 activity 크기가 리사이즈 된다. 
+
+
+* 액티비티에서 띄운 프래그먼트속에 recyclerView를 띄워놓고 다른 액티비티를 갔다가 돌아왔을 때 recyclerView를 업데이트 시키려면 startActivityforResult를 써야한다.
+
+* recyclerView에서 선택한 아이템을 삭제할 경우 삭제한뒤 recyclerView와 관련 adapter를 리셋해줘야 하는데 
+	adapter에는 해당 recyclerView가 실행되는 activity의 context를 받아오기 마련이므로 해당 context를 activity로 파싱해서 사용한다
+	예) ExampleActivity exam = (ExampleActivity) context;  로 하면 현재 사용되고 있는 액티비티의 context를 활용할 수 있게된다.
+		exam.~~ 를 통해서 ExampleActivity의 메소드도 활용 가능.
+
+	덧 : ExampleActivity exam = new ExampleActivity(); 를 사용하여 인스턴스를 생성하면 null 포인트로 될 수가 있다. 
+
+
+* edittext 자동 포커싱 되는것 막기 
+	XML 파일 내부 최상단 레이아웃에 아래부분을 추가한다.
+	android:focusable="true"
+	android:focusableInTouchMode="true"
+
+* edittext 여러줄 칠수있게 바꾸기
+	XML 에서 edittext 에 android:inputType="textMultiLine" 옵션 추가하면된다.
+
+*edittext 자동포커싱되게하기 
+	edittext가 세개인 뷰를 짜는데 실행시 맨 위가 아니라 가운데꺼에 포커싱이 잡혔다. 
+	제일 위에 edittext 에다가 이런식으로 해주었다.
+	EditText editTextTop = (EditText) findViewById(R.id.editTextTop);
+    editTextTop.requestFocus();
