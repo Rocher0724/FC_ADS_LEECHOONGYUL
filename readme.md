@@ -41,6 +41,7 @@
 
 #### week7
 - [Java 1.8, Lambda Expressions(람다식)]
+- [Custom Widget, Custom View]
 
 
 #### 그외 북마크
@@ -98,6 +99,7 @@
 [갤러리 커스텀, MySQL]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170213.md>
 
 [Java 1.8, Lambda Expressions(람다식)]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170220.md>
+[Custom Widget, Custom View]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170221.md>
 
 [어떤 회사가 있는지 알아보자]: <https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/company_search.md>
 

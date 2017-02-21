@@ -1,5 +1,58 @@
 만들면서 써가는 안드로이드 팁 
 
+* 플로팅 버튼 라이브러리 
+	compile 'com.github.clans:fab:1.6.4'
+
+	이거 깔고 해줘야될게 많은데 일단 res폴더에 anim 이랑 ,drawable 폴더를 만들어야 하고 몇가지 파일들을 집어넣어야 한다.
+	values - styles.xml 에 몇가지를 추가하여야 한다.  (github 참조)
+
+		--- xml 사용 예시 ---
+
+		// FAB 메뉴 이며 클릭시 FAB 3개가 나온다.
+        <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fabMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:menu_labels_style="@style/MenuButtonsSmall.Blue"
+        fab:menu_labels_showAnimation="@anim/jump_from_down"
+        fab:menu_labels_hideAnimation="@anim/jump_to_down"
+        fab:menu_animationDelayPerItem="0"
+        fab:menu_shadowColor="#444"
+        fab:menu_colorNormal="#35cdd5"
+        fab:menu_colorPressed="#2fb8c0"
+        fab:menu_colorRipple="#259197"
+        android:layout_above="@+id/tab"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabAcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_aa"
+            fab:fab_label="계좌 메모"
+            style="@style/MenuButtonsSmall.Blue" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_aa"
+            fab:fab_label="아이디 메모"
+            style="@style/MenuButtonsSmall.Blue" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_aa"
+            fab:fab_label="메모 추가"
+            style="@style/MenuButtonsSmall.Blue" />
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+
 * 액티비티에서 플로팅 버튼(Floating action button) 사용할 때 editText 에서 자동으로 플로팅 버튼 올라오게 / 안 올라오게 하는 것 
  : 	manifest 에서 각 activity에 설정 해줘야 하는데 
  1. 프래그먼트는 아래 기본 설정이 adjustResize 이다. 프래그먼트에 FAB를 띄울때는 자동으로 올라온다고 한다.
@@ -31,3 +84,24 @@
 	제일 위에 edittext 에다가 이런식으로 해주었다.
 	EditText editTextTop = (EditText) findViewById(R.id.editTextTop);
     editTextTop.requestFocus();
+
+* 위젯 모서리 둥글게만들기
+	res/drawable/rounded.xml 를 추가 하여 사용한다. 
+
+	--- 내용 ---
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<!--  res/drawable/rounded.xml -->
+	<shape xmlns:
+		android="http://schemas.android.com/apk/res/android"
+		android:shape="rectangle" android:padding="10dp">
+		<solid android:color="#ffffff"/>
+		<corners
+		    android:bottomRightRadius="5dp"
+		    android:bottomLeftRadius="5dp"
+		    android:topLeftRadius="5dp"
+		    android:topRightRadius="5dp" />
+	</shape>
+	-------------
+
+	이렇게 추가한후 모서리를 둥글게 만들고 싶은 위젯이나 액티비티에 android:background="@drawable/rounded" 를 주면 된다. 
