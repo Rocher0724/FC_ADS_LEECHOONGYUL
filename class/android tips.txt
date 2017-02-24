@@ -213,3 +213,16 @@
     }
 
 ```
+
+
+* 타이틀바 없애기 
+    방법은 여러가지이다.
+    res - values - styles.xml 에 해당 아이템을 추가한다.
+```
+        <!-- 타이틀바 없애기 -->
+        <item name="windowNoTitle">true</item>
+        <!--스테이터스바 없애기-->
+        <item name="android:windowFullscreen">true</item>
+
+
+```
