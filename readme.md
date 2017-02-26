@@ -103,7 +103,6 @@
 [Custom Widget, Custom View]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170221.md>
 [Thread, Handler, AsyncTask]:<https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/170223.md>
 
-
 [어떤 회사가 있는지 알아보자]: <https://github.com/Rocher0724/FC_ADS_LEECHOONGYUL/blob/master/class/company_search.md>
 
 [마크다운 한글참조]: <https://www.evernote.com/shard/s3/sh/128acb97-d3c5-4eda-aa1b-c71ecd2f3a15/54a14ebd5d4ce7507bf78e5af640d0e9>
