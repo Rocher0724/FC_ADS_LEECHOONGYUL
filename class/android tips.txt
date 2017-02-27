@@ -233,3 +233,11 @@
 * 안드로이드 OS가 앱을 죽일경우 onDestroy가 호출되지 않을 수가 있다. 서비스 내에서 onTrimMemory나 onLowMemory를 사용하면 메모리가 부족할때 불러오는 메모리인데 이걸 사용해서 종료해주는 방법도 있다.
 
 * 데몬서비스는 stopSelf(); 하면 죽는다.
+
+* TabLayout 가로축 스크롤하기 
+    tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE); 을 추가하면된다. 이러면 tab width가 자동으로 wrap content가 된다. 
+
+* 국가별 언어설정하기 
+    res - values-ko 폴더를 만들고 values - strings.xml 파일을 복붙한다.
+    붙여넣기 된 values-ko 폴더안에 strings.xml 를 한글로 고친다.
+    다시 실행하면 한글로 바뀜!.
