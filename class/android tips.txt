@@ -215,18 +215,6 @@
 ```
 
 
-* 타이틀바 없애기 
-    방법은 여러가지이다.
-    res - values - styles.xml 에 해당 아이템을 추가한다.
-```
-        <!-- 타이틀바 없애기 -->
-        <item name="windowNoTitle">true</item>
-        <!--스테이터스바 없애기-->
-        <item name="android:windowFullscreen">true</item>
-
-
-```
-
 * 서비스 사용시
     서비스는 4대 컴포넌트 이기 때문에 Manifest에 추가해줘야한다. 혹시 그냥 java class 로 생성했다면 추가해줘야 사용할 수 있다.
 
@@ -241,3 +229,20 @@
     res - values-ko 폴더를 만들고 values - strings.xml 파일을 복붙한다.
     붙여넣기 된 values-ko 폴더안에 strings.xml 를 한글로 고친다.
     다시 실행하면 한글로 바뀜!.
+
+* 상단 타이틀바(액션바) 없애기 
+    방법은 여러가지이다.
+    res - values - styles.xml 에 해당 아이템을 추가한다.
+```
+        <!-- 타이틀바 없애기 -->
+        <item name="windowNoTitle">true</item>
+        <!--스테이터스바 없애기-->
+        <item name="android:windowFullscreen">true</item>
+
+```
+
+* 상단 액션바 없앨때 xml preview 에서도 적용되게 하는것.
+    xml - preview 상단 apptheme 클릭 - apptheme.NoActionBar 선택
+
+* 화면 회전 시켰을때 화면 재구성 되는것 막는 것
+    android:configChanges="orientation|keyboardHidden"
