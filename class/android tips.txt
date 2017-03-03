@@ -246,3 +246,20 @@
 
 * 화면 회전 시켰을때 화면 재구성 되는것 막는 것
     android:configChanges="orientation|keyboardHidden"
+
+* layout - clickable - 클릭 가능하게 바꿈 
+
+* 정보 읽는 중에 띄우는 Progress bar 세팅 
+    ProgressDialog dialog = new ProgressDialog(MainActivity.this);
+
+        // 프로그래스 세팅 
+        dialog.setProgress(ProgressDialog.STYLE_SPINNER);
+        // 불러오는 중에 띄울 메시지 
+        dialog.setMessage("불러오는중..");
+        // 창을 띄운다
+        dialog.show();
+        
+        // show 와 dismiss 사이에 정보를 읽는 로직을 넣으면 된다. 
+
+        // 창을 없앤다.
+        dialog.dismiss();
