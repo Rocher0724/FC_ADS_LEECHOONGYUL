@@ -281,3 +281,19 @@
 * RestFul 주소체계는 Uri와 뒷부분을 같은 체계로 만드는 것이다
  네이버/카페/1/10  이런 형식
  예전에는 네이버/카페?page=1&content=10  이런식이었다. (쿼리스트링 방식)
+
+* TextView 움직이게(흐르게) 하는 방법.
+    xml에 가서 TextView 설정에 
+        android:ellipsize="marquee"
+        android:singleLine="true" 
+    을 주고 
+    TextView tv = (TextView)findViewById(textView);
+    tv.setSelected(true);  //원래 marquee는 포커스가 있어야 자동으로 흐르는데 포커싱을 true로 줘버려서 포커스 없어도 자동으로 흐르게 할수 있다.
+
+* Message 객체 사용방법 정석
+
+    재활용을 위해서 recycle을 쓰는데 재생된 객체를 다시사용하기 위해서는 애초에 obtain으로 가져와야한다.
+    최초생성도 obtain으로 가져올수 있기 때문에 이렇게 쓰는게 정석이다.
+    
+    Message msg = Message.obtain();
+    msg.recycle(); 
