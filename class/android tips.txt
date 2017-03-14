@@ -332,3 +332,19 @@
     //string 에 담긴 이름을 통해 userRef 의 차일드를 생성후 idRef에 담아준다.
     String string;
     DatabaseReference idRef = userRef.child(string);
+
+    String pw = editTextPW.getText().toString();
+    String nick = editTextNick.getText().toString();
+
+    // 해시맵 데이터셋을 만들어서 입력받은 pw와 nick을 담아준다.
+    Map<String, String> idMap = new HashMap<>();
+    idMap.put("name", nick);
+    idMap.put("password", pw);
+
+    // idRef 하위에 idMap 에 담겨진 키-밸류 를 담아준다.
+    idRef.setValue(idMap);
+
+        결과 : 
+        user - id   - name - nick
+                    - password - pw 
+                        이런식으로 생성.
