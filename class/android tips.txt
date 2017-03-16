@@ -348,3 +348,11 @@
         user - id   - name - nick
                     - password - pw 
                         이런식으로 생성.
+
+
+
+
+
+
+
+* xml 작성시 순서에 따라서 그려지는 순서가 다르다.
