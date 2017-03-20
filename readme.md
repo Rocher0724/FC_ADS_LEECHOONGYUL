@@ -57,8 +57,8 @@
  - [마크다운을 꾸미기 위해 아이콘을 알아보자]
  - [자바 코딩 규칙]
 
-
 <br/>
+
 #### 학습관련 조사
  - [ActiveX와 Technical Debt]
  - [Multi Threading과 Multi Tasking]
@@ -66,7 +66,6 @@
 <br/>
   
 
-<br/>
 #### 연락처
  - 이 충열
  - rocher0724.dev@gmail.com
