@@ -357,3 +357,10 @@
     }
 ```
 
+
+* AsyncTask 파라메타 세개 정리 
+    new AsyncTask<Void, Void, Void> {
+        // Void의 의미
+        // 첫번째 : do in background 메소드의 파라미터 타입. 입력은 execute에서 한다.
+        // 두번째 : onProgressUpdate 의 파라미터
+        // 세번째 : doInBackGround의 리턴타입
