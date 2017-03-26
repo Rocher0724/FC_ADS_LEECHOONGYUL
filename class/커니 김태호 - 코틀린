@@ -1,0 +1,74 @@
+커니 김태호 - 코틀린
+
+코틀린의 특징 .
+1. ; 이 빠짐 
+
+2. nullpoint가 떨어질 때 컴파일러 상에서 오류를 잘 잡아줌 
+
+3. val foo : String? = iReturnNull();  // foo라는 값은 String 이거나 null을 반환할 수 있다.
+그래서 자바에서 옮길때 차이가 있지만 능숙해지면 탄탄한 코드를 작성할 수 있어진다.
+
+4. var = 변수 , val = value 자바에서 final과 같은 친구이다. 변경불가
+
+5. 람다 표현식 지원
+view.setOnclickListener {
+	Toast.makeText(it.context.applicationContext,"Hello", ~~)
+} 
+
+6. 스트림 지원  filter, onEach, forEach 등 
+
+7. 인터페이스는 거의 똑같고 클래스는 많이 다른데  클래스 앞에 open 으로 선언해줘야 상속이 가능한 함수가 된다. open이 빼주면 상속이 안됨.
+
+8. List는 읽기만되고 add가 안됨 mutableList는 쓰기가됨 . 코틀린은 별 표기가 없으면 읽기만 되는 경우가 있다.
+
+9. when : 자바의 switch 비슷한것이지만 좀더 유용하고 많이 쓰게되는 문법이다.
+
+when(count) {
+	1 -> println("a")
+	2,3,4 -> println("a")
+	5..10 -> println("a")
+	is String -> println("b")
+	is Int -> println("c")
+	else -> println("d")
+	}
+
+10. 반복문 for은 for each 로 쓰는게 일반이고 while은 자바와 동일하다 
+	val = items = listOf("a","b","c")
+	for( item in items) {
+
+	}
+
+11. 데이터클래스 
+
+	public class Person {
+		String name;
+
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+	}
+
+	와 같은것을 데이터 클래스라고 하는데
+
+	data class Person(val name: String, val adress: String); 으로 끝난다. 
+
+12. 확장함수 
+	Toast.makeText(~,~,~).show(); 같은 애들 
+
+	fun Context,toast(message: String) {
+		Toast.makeText(this.applicationContext, message, Toast.LENGTH_SHORT).show
+	}
+
+	이렇게 해주면 toast("hello,kotlin!") 으로 토스트를 쓸 수 있다.
+
+13. 컬렉션 생성 
+	val empthStringList = listOf<String>() // 비어있으면 타입추론이 불가하므로 제너릭을 넣어줌 
+	val cities = listOf("a","b") // 채워져있으면 타입추론이 가능하므로 제네릭을 뺀다 
+	val mutableCities = mutableListOf("a","b"); // 쓰기가가능한 리스트 
+
+	val pair : Pair<String, String> = "a" to "b" // 페어를 생성하는 방법
+	val cities = 
+
