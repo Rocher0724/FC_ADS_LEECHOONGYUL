@@ -59,6 +59,7 @@
  2. 액티비티는 아래 기본 설정이 adjustNoting 이다. 액티비티에 FAB를 띄우면 자동으로 안올라온다.
  	android:windowSoftInputMode="adjustNothing" 라고 하면 안올라온다.
  	android:windowSoftInputMode="adjustResize" 라고 하면 키보드가 올라올 때 activity 크기가 리사이즈 된다. 
+    android:windowSoftInputMode="adjustPan" 이런애도 있다.
 
 
 * 액티비티에서 띄운 프래그먼트속에 recyclerView를 띄워놓고 다른 액티비티를 갔다가 돌아왔을 때 recyclerView를 업데이트 시키려면 startActivityforResult를 써야한다.
@@ -221,6 +222,15 @@
 
 ```
 
+* 상단 스테이터스바 투명하게만들기  - API19부터 지원
+```
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+```
+
 * 상단 액션바 없앨때 xml preview 에서도 적용되게 하는것.
     xml - preview 상단 apptheme 클릭 - apptheme.NoActionBar 선택
 
@@ -372,4 +382,13 @@
     android:launchMode="singleInstance">
 
     </activity>
+```
+
+* 전체화면이 안될때
+    xml에서 fitsSystemWindows가 있는지 확인. 
+    이거있으면 전체화면이나 android:windowTranslucentStatus 는 안먹는다.
+
+```
+        android:fitsSystemWindows="true"
+
 ```
