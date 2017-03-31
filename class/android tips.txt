@@ -392,3 +392,18 @@
         android:fitsSystemWindows="true"
 
 ```
+
+
+* 액티비티 중복방지 
+    액티비티를 호출할때 기존에 있는경우 두개의 액티비티가 켜지는 경우가 발생할 수 있다.
+    이런경우 하단에 깔려있는 액티비티를 그대로 호출하는 방법은 Manifest에서 설정할수있다.
+   
+```
+    <activity
+        android:launchMode="singleInstance"
+        android:name=".ListActivity"
+        android:label="@string/title_activity_list"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+
+```
