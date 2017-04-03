@@ -407,3 +407,18 @@
     </activity>
 
 ```
+
+* 스피너 배경 투명하게 주기
+```
+    <Spinner
+        android:id="@+id/spnWriteEmotion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        //스피너를 건드리지 않은 상태일때 투명주기 
+        android:background="@android:color/transparent"
+        //스피너 클릭상태의 백그라운드 색깔 투명주기 
+        android:popupBackground="@android:color/transparent"
+        android:spinnerMode="dropdown"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgWriteLine" />
+```
